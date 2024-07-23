@@ -7,7 +7,7 @@
 }
 
 :root {
-    --bg-navbar: linear-gradient(90deg, #0033b0, #009fe8, #05eeaf);
+    --bg-navbar: linear-gradient(120deg, #0033b0, #009fe8, #05eeaf);
 }
 
 .navbar {
