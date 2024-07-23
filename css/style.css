@@ -8,6 +8,7 @@
 
 :root {
     --bg-navbar: linear-gradient(120deg, #0033b0, #009fe8, #05eeaf);
+	--f-style-nav: italic;
 }
 
 .navbar {
@@ -15,7 +16,7 @@
 }
 
 .navbar-brand {
-	font-style: italic;
+	font-style: var(--f-style-nav);
 }
 
 .carousel-item img{
