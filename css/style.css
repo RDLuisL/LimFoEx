@@ -6,6 +6,18 @@
 
 }
 
+:root {
+    --bg-navbar: linear-gradient(90deg, #0033b0, #009fe8, #05eeaf);
+}
+
+.navbar {
+    background: var(--bg-navbar);
+}
+
+.navbar-brand {
+	font-style: italic;
+}
+
 .carousel-item img{
 	width: 100%;
 	height: 93vh;
@@ -36,7 +48,7 @@
 }
 
 .chekcout-my-profile{
-	background: #a6dcef;
+	background: rgb(226, 213, 213);
 }
 
 footer p{
