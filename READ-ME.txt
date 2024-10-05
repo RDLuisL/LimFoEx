@@ -1,9 +1,34 @@
-  =>  Template Name    : Solartec - Renewable Energy Website Template
-
-  =>  Template Link    : https://htmlcodex.com/renewable-energy-website-template
-
-  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
-
-  =>  Template Author  : HTML Codex
-
-  =>  Author Website   : https://htmlcodex.com
+1) Secciones para componetizar:
+  a) Spinner
+  b) Topbar
+  c) Navbar
+  d) Carousel 
+    Props:
+    i) Slide - img-fluid
+    ii) <h1>
+    iii) <p>
+    iv) <a>
+  e) Service
+    Props:
+    i) <h6>
+    ii) <h1>
+    iii) <img>
+    iv) <h4>
+    v) <p>
+    vi) <a>
+    vii) <p>
+    viii) <a>
+  f) Feature
+    i) <h6>
+    ii) <h1>
+    iii) <p>
+    iv)  <p>
+    v) <h5>
+  g) Quote
+    Props:
+    i) <h6>
+    ii) <h1>
+    iii) <p>
+    iv) <option>
+    v) <button>
+  h) Fotter
