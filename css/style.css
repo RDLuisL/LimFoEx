@@ -41,7 +41,7 @@
 }
 
 
-/*** Button ***/
+/*** Estilo del Button tanto del Carrusel como del Contact ***/
 .btn {
     font-weight: 500;
     transition: .5s;
@@ -177,6 +177,7 @@
     }
 }
 
+/*** Ubicar en el sitio correcto los botones en el lado derecho por encima del carrusel ***/
 .header-carousel .owl-dots {
     position: absolute;
     width: 60px;
@@ -189,6 +190,7 @@
     justify-content: center;
 }
 
+/*** modifica los botones del carrusel para que tengan forma de boton y pone la sombra ***/
 .header-carousel .owl-dots .owl-dot {
     position: relative;
     width: 45px;
@@ -200,11 +202,13 @@
     transition: .5s;
 }
 
+
+/*** Esto es para que el boton que este activo sea mas grande que el resto ***/
 .header-carousel .owl-dots .owl-dot.active {
     width: 60px;
     height: 60px;
 }
-
+/*** Esto es para circunscribir la imagen en los botones ***/
 .header-carousel .owl-dots .owl-dot img {
     position: absolute;
     width: 100%;
@@ -215,11 +219,13 @@
     transition: .5s;
 }
 
+/*** Parallax para About ***/
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/about_us_1920x800.png) center center no-repeat;
     background-size: cover;
 }
 
+/*** Slash "/" del Breadcrumb de About ***/
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
 }
