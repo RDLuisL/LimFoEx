@@ -31,6 +31,10 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/contact.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/whatsapp.css">
+    <link rel="stylesheet" href="css/whatsapp2.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 </head>
 
 <body>
@@ -89,9 +93,9 @@
         <div class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Servicios</a>
           <div class="dropdown-menu bg-light m-0">
-            <a href="#limp_fosas" class="dropdown-item">Limpieza de Fosas Sépticas</a>
-            <a href="#chem_wc" class="dropdown-item">Baños Químicos</a>
-            <a href="#inst_fosas" class="dropdown-item">Instalación de Fosas Sépticas</a>
+            <a href="index.html#limp_fosas" class="dropdown-item">Limpieza de Fosas Sépticas</a>
+            <a href="index.html#chem_wc" class="dropdown-item">Baños Químicos</a>
+            <a href="index.html#inst_fosas" class="dropdown-item">Instalación de Fosas Sépticas</a>
           </div>
         </div>
         <a href="contact.html" class="nav-item nav-link">Contáctanos</a>
@@ -111,6 +115,36 @@
     </div>
     <!-- Page Header End -->
 
+      <!-- Whatsapp Start -->
+  <div class="nav-bottom">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <div class="popup-whatsapp fadeIn">
+      <div class="content-whatsapp -top">
+        <button type="button" class="closePopup">
+          <i class="material-icons icon-font-color">close</i>
+        </button>
+
+        <p>
+          <img src="/img/secretary_icon.png" width="50" /> Hola, Te escribe
+          Oliver, ¿En que puedo ayudarte?
+        </p>
+      </div>
+      <div class="content-whatsapp -bottom">
+        <input class="whats-input" id="whats-in" type="text" placeholder="Enviar mensaje..." />
+
+        <button class="send-msPopup" id="send-btn" type="button">
+          <i class="material-icons icon-font-color--black">send</i>
+        </button>
+      </div>
+    </div>
+    <button type="button" id="whats-openPopup" class="whatsapp-button">
+      <div class="float">
+        <i class="fa fa-whatsapp my-float"></i>
+      </div>
+    </button>
+    <div class="circle-anime"></div>
+  </div>
+  <!-- Whatsapp End -->
 
 <!-- Contact Start -->
 <div class="container-fluid bg-light overflow-hidden px-lg-0" style="margin: 6rem 0;">
@@ -201,7 +235,6 @@
           <a class="btn btn-link" href="#limp_fosas">Limpiezas de Posas Sépticas</a>
           <a class="btn btn-link" href="#chem_wc">Baños Portátiles</a>
           <a class="btn btn-link" href="inst_fosas">Instalación de Fosas Sépticas</a>
-          <a class="btn btn-link" href="">Support</a>
         </div>
         <!-- Project Gallery Section -->
         <!-- <div class="col-lg-3 col-md-6">
@@ -248,6 +281,10 @@
           </div> -->
         <!-- Newslatter Section -->
       </div>
+          <!-- Contador de visitas -->
+    <p>Contador de visitas 
+      <img src="https://www.web-counter.net/count_20091204.php?c=MX7CNVIK74B" style="border:0;padding:0;margin:0;" alt="contador de visitas"></a>
+      <!-- Fin Contador de visitas -->
     </div>
     <div class="container">
       <div class="copyright">
@@ -282,6 +319,10 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+      <!-- Whatsapp JS-->
+  <script src="/js/whatsapp.js"></script>
+
 </body>
 
 </html>
