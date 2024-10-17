@@ -19,12 +19,40 @@
 
 .back-to-top {
     position: fixed;
-    display: none;
-    right: 45px;
-    bottom: 45px;
+    left: 0; /* Pegado al borde izquierdo */
+    top: 50%; /* Centrado verticalmente */
+    transform: translateY(-50%); /* Ajuste para centrar en la mitad */
     z-index: 99;
+    display: none;
+    width: 60px; /* Ajusta el tamaño del botón */
+    height: 60px; /* Ajusta el tamaño del botón */
+    border-radius: 0px 5px 5px  0px !important; /* Elimina cualquier borde redondeado */
+    background-color: #279c56; /* Color de fondo */
+    color: #fff; /* Color del ícono */
+    text-align: center;
+    line-height: 60px; /* Alinea el ícono verticalmente */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Añade sombra */
 }
 
+
+.back-to-top i {
+    font-size: 24px; /* Tamaño del ícono */
+}
+
+.top-icon-gps {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.top-icon-phone {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.top-icon-clock {
+    width: 20px;
+    margin-right: 5px;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -38,6 +66,10 @@
     transition: opacity .5s ease-out, visibility 0s linear 0s;
     visibility: visible;
     opacity: 1;
+}
+
+.icon-leaf {
+    width: 30px;
 }
 
 
@@ -230,6 +262,9 @@
     color: var(--light);
 }
 
+.shadow-custom {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
 
 /*** About ***/
 @media (min-width: 992px) {
