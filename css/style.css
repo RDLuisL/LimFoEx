@@ -257,6 +257,11 @@
     background-size: cover;
 }
 
+.page-header-clean {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/hero_limp_fosa_1920x400.png) center center no-repeat;
+    background-size: cover;
+}
+
 /*** Slash "/" del Breadcrumb de About ***/
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
