@@ -321,7 +321,7 @@
 
 .service-item:hover .service-icon {
     color: #FFFFFF;
-    background: var(--primary);
+    background: #ceeff5;
 }
 
 
