@@ -355,6 +355,13 @@
 }
 
 
+/*** Counter Logos ***/
+
+.count-icons{
+    width: 60px; 
+    margin-right: 20px;
+}
+
 /*** Project Portfolio ***/
 #portfolio-flters li {
     display: inline-block;
