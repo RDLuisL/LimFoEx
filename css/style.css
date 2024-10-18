@@ -591,6 +591,11 @@
 
 
 /*** Footer ***/
+.icon-footer{
+    width: 35px;
+    margin-right: 10px;
+}
+
 .footer .btn.btn-social {
     margin-right: 5px;
     color: #9B9B9B;
