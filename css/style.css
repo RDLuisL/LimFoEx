@@ -646,3 +646,33 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+.footer-sign {
+    display: inline-block;
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+
+.footer-sign::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px; /* Ajusta la posición si es necesario */
+    left: 0;
+    background-color: #3498db; /* Color del subrayado */
+    transition: width 0.3s ease;
+}
+
+.footer-sign:hover {
+    color: #3498db; /* Cambia el color de la firma al pasar el cursor */
+}
+
+.footer-sign:hover::after {
+    width: 100%; /* Subrayado se expande al ancho total */
+}
