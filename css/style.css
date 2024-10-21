@@ -251,6 +251,11 @@
     transition: .5s;
 }
 
+/*** Justificar el Texto***/
+.text-justify-custom {
+    text-align: justify;
+}
+
 /*** Parallax para About ***/
 .page-header {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/about_us_1920x800.png) center center no-repeat;
