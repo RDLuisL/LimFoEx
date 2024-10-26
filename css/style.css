@@ -258,12 +258,12 @@
 
 /*** Parallax para About ***/
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/about_us_1920x800.png) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(https://i.imgur.com/abwoZmi.png) center center no-repeat;
     background-size: cover;
 }
 
 .page-header-clean {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/hero_limp_fosa_1920x400.png) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(https://imgur.com/ZM6dmMD) center center no-repeat;
     background-size: cover;
 }
 
